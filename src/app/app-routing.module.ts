@@ -9,7 +9,6 @@ const routes: Routes = [
 	},
 	{
 		path: 'events',
-		pathMatch: 'full',
 		loadChildren: () => import('./events/events.module').then((m) => m.EventsModule)
 	}
 ];
