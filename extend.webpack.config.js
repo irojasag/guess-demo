@@ -4,14 +4,16 @@ const { parseRoutes } = require('guess-parser');
 module.exports = {
 	plugins: [
 		new GuessPlugin({
-			reportProvider() {
-				return Promise.resolve(JSON.parse(require('fs').readFileSync('./routes.json')));
-			},
+			GA: '201800331',
 			runtime: {
 				delegate: false
 			},
 			routeProvider() {
 				return parseRoutes('.');
+			},
+			period: {
+				startDate: new Date('09-17-2019'),
+				endDate: new Date()
 			}
 		})
 	]

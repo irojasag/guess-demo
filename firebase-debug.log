@@ -1,0 +1,31 @@
+[debug] [2019-09-18T03:30:28.489Z] ----------------------------------------------------------------------
+[debug] [2019-09-18T03:30:28.492Z] Command:       /Users/personal/.nvm/versions/node/v10.12.0/bin/node /Users/personal/.nvm/versions/node/v10.12.0/bin/firebase deploy
+[debug] [2019-09-18T03:30:28.492Z] CLI Version:   7.3.1
+[debug] [2019-09-18T03:30:28.492Z] Platform:      darwin
+[debug] [2019-09-18T03:30:28.492Z] Node Version:  v10.12.0
+[debug] [2019-09-18T03:30:28.493Z] Time:          Tue Sep 17 2019 21:30:28 GMT-0600 (Central Standard Time)
+[debug] [2019-09-18T03:30:28.493Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-09-18T03:30:28.505Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-09-18T03:30:28.505Z] > authorizing via signed-in user
+[debug] [2019-09-18T03:30:28.505Z] [iam] checking project guessjsangulardemo for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-09-18T03:30:28.507Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-09-18T03:30:28.507Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-09-18T03:30:28.942Z] <<< HTTP RESPONSE 200
+[debug] [2019-09-18T03:30:28.954Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/guessjsangulardemo:testIamPermissions  
+
+[debug] [2019-09-18T03:30:29.381Z] <<< HTTP RESPONSE 200
+[debug] [2019-09-18T03:30:29.384Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/guessjsangulardemo  
+ 
+[debug] [2019-09-18T03:30:29.809Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'guessjsangulardemo'...
+[info] 
+[info] i  deploying hosting
+[debug] [2019-09-18T03:30:29.812Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/guessjsangulardemo/versions  
+
+[debug] [2019-09-18T03:30:30.871Z] <<< HTTP RESPONSE 200
+[info] i  hosting[guessjsangulardemo]: beginning deploy...
+[info] i  hosting[guessjsangulardemo]: found 54 files in dist/ng-costa-rica
+[debug] [2019-09-18T03:30:30.882Z] [hosting] hash cache [ZGlzdC9uZy1jb3N0YS1yaWNh] load error: lines is not defined
