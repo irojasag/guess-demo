@@ -10,6 +10,14 @@ const routes: Routes = [
 	{
 		path: 'events',
 		loadChildren: () => import('./events/events.module').then((m) => m.EventsModule)
+	},
+	{
+		path: 'about',
+		loadChildren: () => import('./about/about.module').then((m) => m.AboutModule)
+	},
+	{
+		path: 'media',
+		loadChildren: () => import('./media/media.module').then((m) => m.MediaModule)
 	}
 ];
 
