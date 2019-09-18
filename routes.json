@@ -1,5 +1,5 @@
 {
-	"/": {
+	"": {
 		"/events": 80,
 		"/about": 10,
 		"/media": 10
@@ -11,9 +11,9 @@
 		"/events/dockerizacion-angular": 20
 	},
 	"/about": {
-		"/": 100
+		"": 90
 	},
 	"/media": {
-		"/": 100
+		"": 90
 	}
 }
