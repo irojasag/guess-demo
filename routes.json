@@ -1,0 +1,19 @@
+{
+	"/": {
+		"/events": 80,
+		"/about": 10,
+		"/media": 10
+	},
+	"/events": {
+		"/events/material-cdk": 50,
+		"/events/predictive-prefetching": 10,
+		"/events/mr-reactive": 20,
+		"/events/dockerizacion-angular": 20
+	},
+	"/about": {
+		"/": 100
+	},
+	"/media": {
+		"/": 100
+	}
+}
